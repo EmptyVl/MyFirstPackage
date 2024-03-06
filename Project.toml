@@ -3,7 +3,22 @@ uuid = "3ecf1533-fdf7-4562-b419-576cda0c0069"
 authors = ["zhangdezheng"]
 version = "1.0.0-DEV"
 
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Bloqade = "bd27d05e-4ce1-5e79-84dd-c5d7d508bbe1"
+BloqadeSchema = "a64e8dd8-bb5a-11ec-104d-290571fc3a8d"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+MethodAnalysis = "85b6ec6f-f7df-4429-9514-a64bcd9ee824"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+TwoDimensional = "1907e7ba-7586-4310-a2ba-dd01462aeb50"
+Yao = "5872b779-8223-5990-8dd0-5abbb0748c8c"
+
 [compat]
+LinearAlgebra = "1"
 julia = "1.10"
 
 [extras]

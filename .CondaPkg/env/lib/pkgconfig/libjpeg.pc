@@ -1,0 +1,10 @@
+prefix=/Users/dezhengzhang/.julia/dev/MyFirstPackage/.CondaPkg/env
+exec_prefix=/Users/dezhengzhang/.julia/dev/MyFirstPackage/.CondaPkg/env
+libdir=/Users/dezhengzhang/.julia/dev/MyFirstPackage/.CondaPkg/env/lib
+includedir=/Users/dezhengzhang/.julia/dev/MyFirstPackage/.CondaPkg/env/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
